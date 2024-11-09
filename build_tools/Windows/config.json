@@ -1,0 +1,23 @@
+{
+    "cmake_args": [
+        {
+            "option": "-S",
+            "value": "./../../source"
+        },
+
+        {
+            "option": "-B",
+            "value": "./../../build"
+        },
+
+        {
+            "option": "-G",
+            "value": "Visual Studio 17 2022"
+        },
+
+        {
+            "option": "-DCMAKE_TOOLCHAIN_FILE",
+            "value": "./../build_tools/Windows/toolchains/MSVC.cmake"
+        }
+    ]
+}

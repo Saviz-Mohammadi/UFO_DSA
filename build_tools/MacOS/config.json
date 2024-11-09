@@ -1,0 +1,23 @@
+{
+    "cmake_args": [
+        {
+            "option": "-S",
+            "value": "./../../source"
+        },
+
+        {
+            "option": "-B",
+            "value": "./../../build"
+        },
+
+        {
+            "option": "-G",
+            "value": "Unix Makefiles"
+        },
+
+        {
+            "option": "-DCMAKE_TOOLCHAIN_FILE",
+            "value": "./../build_tools/MacOS/toolchains/GCC.cmake"
+        }
+    ]
+}
